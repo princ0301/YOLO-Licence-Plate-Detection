@@ -8,15 +8,21 @@ This project implements automatic car license plate detection using YOLO v8, and
 
 ## Installation
 1. Clone the repository:
-   ```sh  git clone https://github.com/AbdurRahman22224/YOLO-Car-License-Plate-Detection
+   ```sh
+   git clone https://github.com/AbdurRahman22224/YOLO-Car-License-Plate-Detection
+   ```
 cd YOLO-Car-License-Plate-Detection
 git clone https://github.com/AbdurRahman22224/YOLO-Car-License-Plate-Detection
 cd YOLO-Car-License-Plate-Detection
-2. Install Dependencies:
+3. Install Dependencies:
+    ```sh
     pip install -r requirements.txt
+    ```
 
-3. Run the streamlit app
+4. Run the streamlit app
+   ```sh
    streamlit run yolo_application.py
+   ```
 
 # Uses
 - Access the Streamlit web interface locally or on a server where the app is deployed.
